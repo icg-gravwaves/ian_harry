@@ -1,4 +1,4 @@
-***PERMISSION DENIED***
+# PERMISSION DENIED
 
 User identified as "Andrew Lundgren". To view this content please provide:
 
