@@ -44,8 +44,7 @@ to generate the figure with the superluminal data points.
 
 ## Figure 2B
 
-Figure 2B is created using an edited version of PyCBC Inference. In particular we must make the stretched/squeezed waveforms available for the
-monte-carlo sampler.
+Figure 2B is created using an edited version of PyCBC Inference.
 
 Please see here:
 
