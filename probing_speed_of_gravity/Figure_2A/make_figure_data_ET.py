@@ -168,7 +168,7 @@ non_gr_n_values[:9] = np.linspace(1, 2, 9)
 non_gr_n_values[9:] = np.linspace(2, 10, 10)
 
 outputs = np.zeros([19])
-outpus_neg = np.zeros([19])
+outputs_neg = np.zeros([19])
 
 hp1, _ = get_dopplered_tf2_waveform_lisa(
     mass1=1.36,
