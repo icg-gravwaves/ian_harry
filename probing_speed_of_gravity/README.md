@@ -1,4 +1,8 @@
-# Probing the speed of gravity with LVK, LISA and join observations - Data Release
+---
+title: TESTING
+---
+
+# Probing the speed of gravity with LVK, LISA and joint observations - Data Release
 
 This is the data release for the paper "Probing the speed of gravity with LVK, LISA, and joint observations", which can be found
 \[ADD ARXIV LINK WHEN ON ARXIV\]. We release the data behind each of the figures and the code and configuration files that were used to produce each of them.
