@@ -142,5 +142,14 @@ https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_2B/fig
 
 https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_2B/figure2_data_superluminal.npz
 
+Finally the plot is generated from this be running the script
 
+https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_2B/make_plot.py
 
+## Step 3: Also make the video
+
+The `make_plot.py` command also makes the still frames used to make the animation. We combined this into an mp4 using ffmpeg:
+
+```
+ffmpeg -r 1 -f image2 -i figure2b_video_panel_%d.png -vcodec libx264 -crf 25  -pix_fmt yuv420p -vf pad="width=ceil(iw/2)*2:height=ceil(ih/2)*2" -start_number 0 figure2b.mp4
+```
