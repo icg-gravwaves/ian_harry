@@ -44,6 +44,16 @@ to generate the figure with the superluminal data points.
 
 ## Figure 2B
 
+Figure 2B is created using an edited version of PyCBC Inference. In particular we must make the stretched/squeezed waveforms available for the
+monte-carlo sampler.
+
+Please see here:
+
+https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_2B
+
+for details of this figure.
+
+## Figure 3
 
 
 See
