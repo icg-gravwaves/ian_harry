@@ -1,5 +1,5 @@
 ---
-title: Probing the speed of gravity with LVK, LISA and join observations - Data Release
+title: ian_harry
 ---
 
 # Probing the speed of gravity with LVK, LISA and join observations - Data Release
