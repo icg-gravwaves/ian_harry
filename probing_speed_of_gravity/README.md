@@ -1,7 +1,3 @@
----
-title: ian_harry
----
-
 # Probing the speed of gravity with LVK, LISA and join observations - Data Release
 
 This is the data release for the paper "Probing the speed of gravity with LVK, LISA, and joint observations", which can be found
