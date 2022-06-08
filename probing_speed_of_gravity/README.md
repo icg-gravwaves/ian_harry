@@ -18,7 +18,33 @@ https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/matplotlib_st
 https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/matplotlib_style_files/presentation.mplstyle
 
 
-## Figure 2
+## Figure 2A
+
+Figure 2A is generated in a few steps. First we generate the data by running the following two scripts:
+
+https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_2A/make_figure_data_LIGO.py
+
+https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_2A/make_figure_data_ET.py
+
+This produces `.npz` data files, which are also made available here, as these scripts can take hours to run.
+
+https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_2A/figure2_dataLIGO.npz
+
+https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_2A/figure2_dataET.npz
+
+The plot is then produced by running the script in
+
+https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_2A/make_plot.py
+
+This plot uses the subluminal results, but you can see that the superluminal results are identical by running the script here
+
+https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_2A/make_plot_sl.py
+
+to generate the figure with the superluminal data points.
+
+## Figure 2B
+
+
 
 See
 
