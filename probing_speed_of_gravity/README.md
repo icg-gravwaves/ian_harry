@@ -65,11 +65,14 @@ for details of this figure.
 
 ## Figure 3
 
-Figure 3 uses a similar script to Figure 2A but must examine a lot more points. The scripts for generating the LIGO and LISA data respectively are here:
+Figure 3 uses a similar script to Figure 2A but must examine a lot more points. The scripts for generating the LIGO, LISA and ET data respectively are here:
 
 <https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_3/make_data_ligo.py>
 
 <https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_3/make_data_lisa.py>
+
+<https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_3/make_data_et.py>
+
 
 These files are split into chunks so you must run
 
@@ -80,13 +83,19 @@ python make_data_ligo.py 1
 python make_data_ligo.py 24
 ```
 
-and similar for the lisa script. In my case I ran these in parallel on a single machine.
+and similar for the lisa/et script. In my case I ran these in parallel on a single machine. The LISA script also requires a LISA PSD, this can be downloaded from here:
 
-The outputs can then be combined using `cat` to produce `LIGO_output.txt` and `LISA_output.txt`. These two files are available here:
+<https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_3/LISA_PSD.txt.gz>
+
+(it needs `gunzip LISA_PSD.txt.gz` to uncompress)
+
+The outputs can then be combined using `cat` to produce `LIGO_output.txt`, `LISA_output.txt` and `ET_output.txt`. These three files are available here:
 
 <https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_3/LIGO_output.txt>
 
 <https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_3/LISA_output.txt>
+
+<https://icg-gravwaves.github.io/ian_harry/probing_speed_of_gravity/Figure_3/ET_output.txt>
 
 Figure 3 is then made from these input files by running:
 
